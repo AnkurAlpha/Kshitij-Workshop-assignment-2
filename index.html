@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1 id="messanger">Welcome to my tic tac toe game !!</h1>
+        <div id="btn-seperator"></div>
+        <button  id="starter">Play!!!</button>
+        <div id="main">
+            <div class="side-panes" id="main-left">
+                <div id="left-sub-header">
+                    <h1>Score Board</h1>
+                </div>
+                <div id="left-sub-body">
+                    <div class="score-board">
+                        <div class="score-display">
+                            <div>User</div>
+                            <div class="scores"></div>
+                        </div>
+                        <hr>
+                        <div class="score-display">
+                            <div>Computer</div>
+                            <div class="scores"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="t-main">
+                <div id="t-0" class="t-sub"></div>
+                <div id="t-1" class="t-sub"></div>
+                <div id="t-2" class="t-sub"></div>
+                <div id="t-3" class="t-sub"></div>
+                <div id="t-4" class="t-sub"></div>
+                <div id="t-5" class="t-sub"></div>
+                <div id="t-6" class="t-sub"></div>
+                <div id="t-7" class="t-sub"></div>
+                <div id="t-8" class="t-sub"></div>
+            </div>
+            <div class="side-panes" id="main-right">
+                <div id="right-sub-header">
+                    <h1>Turns left</h1>
+                </div>
+                <div class="turns-board">
+                    <div class="turns-display">
+                        <div>User</div>
+                        <div class="turns"></div>
+                    </div>
+                    <hr>
+                    <div class="turns-display">
+                        <div>Computer</div>
+                        <div class="turns"></div>
+                    </div>
+                </div>
+                <hr>
+                <div id="options">
+                    <button class="option button">restart</button>
+                    <button class="option button">reset</button>
+                </div>
+            </div>
+        </div>
+        <div id="main-bottom"></div>
+    </div>
+    <footer>
+        <a href="about/">click to know about the Author</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

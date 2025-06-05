@@ -1,0 +1,52 @@
+h1 {
+    font-size: 500% ;
+}
+p {
+    font-size: 200% ;
+}
+.something {
+    border : white  solid 1px  ;
+    max-width: 70vw ;
+    border-radius: 20px ;
+    transition: 1s ;
+    padding : 1% ;
+    display: flex;
+
+}
+.section {
+    min-width: 25vw  ;
+}
+.sub {
+    display: flex ;
+    justify-items: center ;
+    align-items: center;
+    gap: 1% ;
+    min-width: 55vw  ;
+    justify-content: space-evenly;
+}
+.something:hover {
+    border : none ;
+    box-shadow: inset 10px 5px 5px purple , 10px 5px 5px pink  ;
+    padding : 3% ;
+}
+.something a {
+    color : white  ;
+}
+.something a:hover {
+    color : red ;
+}
+body {
+    background: linear-gradient(45deg ,#0F172A, purple );
+    min-height: 100vh;
+    min-width: 100vw  ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    color : white ;
+}
+.video {
+    transition: 1s;
+}
+.video:hover {
+    box-shadow: 10px 5px 5px purple;
+}

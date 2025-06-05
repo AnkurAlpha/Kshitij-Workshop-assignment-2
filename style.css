@@ -1,0 +1,177 @@
+body {
+    background-color: black ;
+    color : white ;
+    font-size: 200% ;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    background:
+    radial-gradient( rgba(0,0,0,0.1),rgba(0,0,0,0.9) ) ,
+    url("./assets/Nostalgic_computer.GIF") ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size:cover ;
+    min-height: 95vh;
+    min-width: 95vw ;
+}
+#t-main {
+    width: 500px ;
+    height: 500px   ;
+    border : white solid 2px ;
+    border-radius: 10px ;
+    display: grid ;
+    grid-template: repeat(3,1fr) / repeat(3,1fr);
+}
+.t-sub {
+    border : solid white 1px ;
+    display : flex ;
+    align-items: center ;
+    justify-content: center ;
+    font-size : 300% ;
+    font-weight: bolder;
+    pointer-events: auto;
+}
+#main {
+    transition: opacity 3s ease-in-out;
+    display: flex ;
+    flex-direction: row ;
+    gap : 5% ;
+    min-width : 90vw ;
+    align-items: center ;
+    justify-content: center ;
+    pointer-events: auto;
+}
+.side-panes {
+    border : solid white 1px ;
+    min-width : 25vw ;
+    min-height: 25vh ;
+    gap : 1% ;
+}
+#main-left {
+    display: flex ;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+
+.score-board {
+    display : flex ;
+    flex-direction: row ;
+    gap : 15% ;
+    min-height: 20vh  ;
+    min-width : 15vw  ;
+    padding : 30px ;
+    margin : 20px ;
+    justify-content: space-evenly;
+}
+.score-display {
+    display : flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: space-evenly ;
+}
+.turns-board {
+    display : flex ;
+    flex-direction: row ;
+    gap : 15% ;
+    min-height: 20vh  ;
+    min-width : 15vw  ;
+    padding : 30px ;
+    margin : 20px ;
+    justify-content: space-evenly;
+}
+.turns-display {
+    display : flex ;
+    flex-direction: column ;
+    align-items: center ;
+    justify-content: space-evenly ;
+}
+#right-sub-header {
+    display: flex ;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center ;
+}
+.button {
+    height: 40px ;
+    width: 90px ;
+    background: radial-gradient(  gray , black ) ;
+    border : solid black 1px ;
+    color : white ;
+    font-size: 20px ;
+    outline : none ;
+    transition : 500ms ;
+}
+.button:hover {
+    height: 50px ;
+    width: 130px ;
+    font-size : 30px ;
+}
+.button:active {
+  transform: scale(0.95);
+  transition: 0s ; ;
+  border : solid 1px white ;
+}
+#options {
+    display: flex;
+    gap : 25%  ;
+    align-items: center ;
+    justify-content: center ;
+}
+#starter {
+    height: 60px ;
+    width: 120px ;
+    background: radial-gradient(  gray , black ) ;
+    border : solid black 1px ;
+    color : white ;
+    font-size: 40px  ;
+    outline : none ;
+    transition : 500ms ;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+#starter:hover {
+    height: 80px ;
+    width: 200px ;
+    font-size : 60px ;
+}
+#starter:active {
+  transform: scale(0.95);
+  transition: 0s ;
+  border : solid 1px white ;
+}
+
+#btn-seperator {
+    height: 40vh;
+    transition: 500ms;
+}
+#messanger {
+    transition : 500ms ;
+}
+.scores {
+    transition : 500ms ;
+}
+.turns {
+    transition : 500ms ;
+}
+footer {
+    min-height : 40px ;
+    display: flex ;
+    align-items: center ;
+    justify-content: center ;
+    margin-top : 50vh ;
+}
+footer a  {
+    color :white ;
+    font-size: 150% ;
+    transition: 1s;
+}
+footer a:hover  {
+    color : gray ;
+    font-size: 200%;
+}
+
